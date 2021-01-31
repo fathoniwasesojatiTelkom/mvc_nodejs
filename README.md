@@ -14,3 +14,11 @@ concept mvc in node js express implementation to given any knowledge like larave
 2. `git clone https://github.com/fathoniwasesojatiTelkom/mvc_nodejs.git`
 3. `.env set you port what you want, i'm using port number 9000 Default`
 4. `nodemon server`
+
+### Screenshot :
+
+![alt text](https://github.com/fathoniwasesojatiTelkom/mvc_nodejs/blob/master/image/nodejs1.png)
+
+### Screenshot :
+
+![alt text](https://github.com/fathoniwasesojatiTelkom/mvc_nodejs/blob/master/image/nodejs2.png)
