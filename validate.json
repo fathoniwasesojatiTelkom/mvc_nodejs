@@ -1,0 +1,46 @@
+{
+    "errors": [
+      {
+        "value": "",
+        "msg": "Email Invalid Validate",
+        "param": "email",
+        "location": "body"
+      },
+      {
+        "value": "",
+        "msg": "name Invalid Validate",
+        "param": "name",
+        "location": "body"
+      },
+      {
+        "value": "",
+        "msg": "nip Invalid Validate",
+        "param": "nip",
+        "location": "body"
+      },
+      {
+        "value": "",
+        "msg": "alamat Invalid Validate",
+        "param": "alamat",
+        "location": "body"
+      },
+      {
+        "value": "",
+        "msg": "provinsi Invalid Validate",
+        "param": "provinsi",
+        "location": "body"
+      },
+      {
+        "value": "",
+        "msg": "berat Invalid Validate",
+        "param": "berat",
+        "location": "body"
+      },
+      {
+        "value": "",
+        "msg": "tinggi Invalid Validate",
+        "param": "tinggi",
+        "location": "body"
+      }
+    ]
+  }

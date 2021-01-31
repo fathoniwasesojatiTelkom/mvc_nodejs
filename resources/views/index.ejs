@@ -1,0 +1,69 @@
+<%- include('./header.ejs') %>
+	<div class="section full-height">
+		<div class="absolute-center">
+			<div class="section mt-5">
+				<div class="container">
+					<div class="row">
+						<div class="col-12">
+							<table id="example" class="table table-bordered" style="width:100%">
+								<% if(success){ %> 
+								<p class="alert alert-success">data berhasil di tambahkan</p>
+								<% }else{} %> 
+								<thead>
+									<tr> <a href="/create"><i class="fa fa-plus-circle" style="font-size:48px;float:right"></i></a>
+										<th>Name</th>
+										<th>Email</th>
+										<th>Nip</th>
+										<th>Alamat</th>
+										<th>Provinsi</th>
+										<th>Berat</th>
+										<th>Tinggi</th>
+										<th>#</th>
+									</tr>
+								</thead>
+								<tbody>
+									<% data.forEach(row => { %>
+										<tr>
+											<td>
+												<%= row.name %>
+											</td>
+											<td>
+												<%= row.email %>
+											</td>
+											<td>
+												<%= row.nip %>
+											</td>
+											<td>
+												<%= row.alamat %>
+											</td>
+											<td>
+												<%= row.provinsi %>
+											</td>
+											<td>
+												<%= row.berat %>
+											</td>
+											<td>
+												<%= row.tinggi %>
+											</td>
+											<td>
+												<a href="/edit/<%= row._id %>"><button class="btn btn-outline-info">Edit</button></a>
+												<a href="/delete/<%= row._id %>"><button class="btn btn-outline-danger">Delete</button></a>
+											</td>
+										</tr>
+										<% }) %>
+								</tbody>
+							</table>
+							<div class="container"></div>
+							<p>Dark Mode</p>
+							<div id="switch">
+								<div id="circle"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="my-5 py-5"></div>
+	<!-- Link to page ================================================== -->
+	<%- include('./footer.ejs') %>

@@ -1,0 +1,11 @@
+const fs = require("fs")
+fs.readFile('validate.json', 'utf-8', (err, data)=>{
+    Obj = JSON.parse(data)
+    Obj.errors.forEach(element => {
+        console.log(element.msg)
+    });
+})
+
+if this program error port already to use::9000 , you can follow my command :
+sudo killall -9 node
+//FOR UBUNTU/LINUX/MINT/KALI/PARROTS
